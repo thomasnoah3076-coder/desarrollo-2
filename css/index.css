@@ -1,0 +1,34 @@
+body{
+    background-color: blue;
+}
+.parrafo-rojo{
+    color: crimson;
+}
+.imagenes {
+    display: flex ;
+}
+.linea{
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 4em;
+    background-color: aqua;
+    transition: all 1s linear;
+}
+.linea:hover{
+    background-color: blue;
+    transition: all 1s linear;
+}
+.html{
+    font-size: 15px; 
+}
+.pixel{
+    font-size: 10px;
+}
+.el-em{
+    font-size: 2em;
+}
+.el-rem{
+    font-size: 2rem;
+}
